@@ -14,7 +14,7 @@ list-style: none;
     text-decoration: none;
     color: rgb(34, 34, 34);
 }
-.Navbar .Logo{
+.Navbar .Logo a{
     font-size: 30px;
-    color: rgb(61, 61, 61);
+    color: rgb(36, 35, 35);
 }

@@ -4,6 +4,12 @@
     padding: 50px;
     background: rgb(31, 30, 30);
 }
+.Full-Footer{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0%;
+}
 .Footer-Flex h2{
     color: grey;
     font-weight: 500;

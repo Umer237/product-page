@@ -4,6 +4,7 @@ import './Footer.css'
 const Footer = () => {
   return (
 <>
+<div className='Full-Footer'>
 <div className="Footer-Flex">
 <div>
 <h2>Teadough</h2>
@@ -17,6 +18,7 @@ const Footer = () => {
 </div>
 <div className="Footer-End">
   <h4>Designed & Developed by FHGROUPOC</h4>
+</div>
 </div>
 </>
   )

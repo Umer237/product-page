@@ -2,14 +2,14 @@ import React from 'react'
 import Header from './Header'
 import Footer from './Footer'
 
-const OurStory = () => {
+const Recipes = () => {
   return (
     <>
     <Header/>
-   <h1>Our-Story</h1>
-   <Footer/>
-   </>
+  <h1>Recipes</h1>
+    <Footer/>
+    </>
   )
 }
 
-export default OurStory
+export default Recipes
