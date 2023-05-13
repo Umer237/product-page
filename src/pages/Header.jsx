@@ -1,10 +1,11 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { BsBasket } from 'react-icons/bs';
 import './Header.css';
 import { Link } from 'react-router-dom'
 
 const Header = () => {
-  return (
+  const [pages, setPages] = useState('')
+  return (   
 <>
 <div className='Navbar'>  
 <nav>  
