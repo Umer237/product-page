@@ -1,0 +1,20 @@
+
+.Navbar ul{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+justify-content: space-evenly;
+text-align: center;
+align-items: center;
+background: grey;
+list-style: none;
+
+}
+.Navbar ul li a{
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+}
+.Navbar .Logo{
+    font-size: 30px;
+    color: rgb(61, 61, 61);
+}

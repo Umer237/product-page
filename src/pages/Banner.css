@@ -1,0 +1,39 @@
+.Banner-Background{
+    background: url('./img/Banner-BG.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+.Banner-Background h1{
+    text-align: center;
+    align-items: center;
+    padding-top: 20%;
+    color: black;
+    font-weight: 500;
+}
+.Banner-Things input{
+    border: black solid 0.5px;
+    padding: 10px;
+    width: 550px;
+    background: grey;
+    outline: none;
+}
+.Banner-Things{
+    text-align: center;
+}
+.Banner-Background h2{
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 500;
+}
+.Banner-Background button{
+    padding: 10px;
+margin-top: 20px;
+    border: none;
+    font-weight: 600;
+    font-size: 13px;
+background:grey;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}

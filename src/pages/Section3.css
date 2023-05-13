@@ -1,0 +1,22 @@
+.Section-3-Heading h2{
+    text-align: center;
+    padding-top: 30px;
+    font-weight: 500;
+}
+.Section-3-Flex{
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+    padding-top: 30px;
+}
+.Section-3-Flex img{
+    width: 70px;
+}
+.Section-3-Flex .Person img{
+    border-radius: 100%;
+}
+.Section-3-End h3{
+    text-align: center;
+    padding-top: 20px;
+    cursor: pointer;
+}

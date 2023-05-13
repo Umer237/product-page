@@ -1,0 +1,31 @@
+.Footer-Flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background: rgb(31, 30, 30);
+}
+.Footer-Flex h2{
+    color: grey;
+    font-weight: 500;
+}
+.Footer-Flex h3{
+    color: grey;
+    font-weight: 400;
+}
+.Footer-Flex input{
+    border: 0.5px solid grey;
+outline: none;
+background: none;
+padding: 5px;
+color: grey;
+}
+.Footer-End h4{
+    text-align:center;
+    color: grey;
+    font-weight: 400;
+    font-size: 15px;
+}
+.Footer-End{
+    padding: 10px;
+    background: rgb(54, 53, 53);
+}
