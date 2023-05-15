@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
-import { BsBasket } from 'react-icons/bs';
-import './Header.css';
-import { Link } from 'react-router-dom'
+
 import './Banner.css';
 
 function Banner() {
@@ -22,25 +20,7 @@ function Banner() {
   } 
   return (
    <>  
-   <div className='Navbar'>  
-<nav>  
-<ul>
-    <div className='Logo'>
-      <Link to='/'>
-    <BsBasket/>
-    </Link>
-    </div>
-    {/* <li><a href="/ourstory">OUR STORY</a></li> */}
-    <button onClick={Click}>OUR STORY</button>
-    {/* <li><a href="/recipes">RECIPES</a></li> */}
-    <button onClick={Click}>RECIPES</button>
-    {/* <li><a href="/contact">CONTACT</a></li> */}
-    <button onClick={Click}>CONTACT</button>
-    {/* <li><a href="/store">STORE</a></li> */}
-    <button onClick={Click}>STORE</button>
-   </ul>
-   </nav>
-   </div>
+
 <div className='Banner-Background' value={change}>
   <div className="Banner-Things">
        

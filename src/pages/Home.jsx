@@ -1,23 +1,25 @@
 import React from 'react'
 
-
-import Header from './Header'
-import Banner from './Banner'
-import Section2 from './Section2'
-import Section3 from './Section3'
-import Section4 from './Section4'
-import Footer from './Footer'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import HomePage from './HomePage'
+import Store from './Store'
+import OurStory from './OurStory'
+import Recipes from './Recipes'
+import Contact from './Contact'
 
 
 const Home = () => {
   return (
  <>
- <Header/>   
- <Banner/>
- <Section2/>
- <Section3/>
- <Section4/>
- <Footer/>
+ <BrowserRouter>
+<Switch>
+  <Route exact path='/' component={HomePage} />
+  <Route exact path='/ourstory' component={OurStory} />
+  <Route exact path='/recipes' component={Recipes} />
+  <Route exact path='/contact' component={Contact} />
+  <Route exact path='/store' component={Store}/>
+  </Switch>
+ </BrowserRouter>
  </>
   )
 }

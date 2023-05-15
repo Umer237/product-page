@@ -5,9 +5,7 @@ import Footer from './Footer'
 const Recipes = () => {
   return (
     <>
-    <Header/>
   <h1>Recipes</h1>
-    <Footer/>
     </>
   )
 }
