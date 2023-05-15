@@ -1,7 +1,6 @@
 import React from 'react'
 import { BsBasket } from 'react-icons/bs';
 import './Header.css';
-import { Link } from 'react-router-dom/cjs/react-router-dom';
 // import { Link } from 'react-router-dom'
 const Header = () => {
       
@@ -11,9 +10,9 @@ const Header = () => {
 <nav>  
 <ul>
     <div className='Logo'>
-<Link to='/'>
+<a href="/">
     <BsBasket/>
-    </Link>
+    </a>
     </div>
     <li><a href="/ourstory">OUR STORY</a></li> 
     <li><a href="/recipes">RECIPES</a></li> 
