@@ -19,5 +19,9 @@ list-style: none;
     color:grey;
 }
 .Navbar button{
-    background: transparent 
+    background: transparent;
+    border: none;
+    color: grey;
+    font-size: 15px;
+    cursor: pointer;
 }
