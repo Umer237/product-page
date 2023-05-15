@@ -15,7 +15,8 @@ const Header = () => {
     <BsBasket/>
     </Link>
     </div>
-    <li><a href="/ourstory">OUR STORY</a></li>
+    {/* <li><a href="/ourstory">OUR STORY</a></li> */}
+    <button>OUR STORY</button>
     <li><a href="/recipes">RECIPES</a></li>
     <li><a href="/contact">CONTACT</a></li>
     <li><a href="/store">STORE</a></li>
