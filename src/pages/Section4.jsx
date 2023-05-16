@@ -32,36 +32,7 @@ const Section4 = () => {
         <div>
           <img src={pic3} alt="" />
         </div>
-      </div>
-      {/* <div className="second-row">
-        <div>
-          <h4>
-            Today you'll find us at Edinburgh's Business Campus selling a fresh
-            batch of our finest
-          </h4>
-        </div>
-        <div>
-          <img src={pic4} alt="" />
-        </div>
-        <div>
-          <h4>
-            Today you'll find us at Edinburgh's Business Campus selling a fresh
-            batch of our finest
-          </h4>
-        </div>
-        <div>
-          <img src={pic5} alt="" />
-        </div>
-        <div>
-          <h4>
-            Today you'll find us at Edinburgh's Business Campus selling a fresh
-            batch of our finest
-          </h4>
-        </div>
-        <div>
-          <img src={pic4} alt="" />
-        </div>
-      </div> */}     
+      </div>   
        <div className="second-row">
        <div>
           <h4>

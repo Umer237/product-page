@@ -1,9 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { BsBasket } from 'react-icons/bs';
+import Banner from './Banner';
 import './Header.css';
-// import { Link } from 'react-router-dom'
 const Header = () => {
       
+const [page, setPages] = useState('')
+
+function handleupclick () {
+Banner = {page}
+setPages = {handleupclick}
+}
   return (
 <>
 <div className='Navbar'>  
@@ -14,7 +20,8 @@ const Header = () => {
     <BsBasket/>
     </a>
     </div>
-    <li><a href="/ourstory">OUR STORY</a></li> 
+    {/* <li><a href="/ourstory">OUR STORY</a></li>  */}
+    <button onClick={handleupclick}>OUR STORY</button>
     <li><a href="/recipes">RECIPES</a></li> 
      <li><a href="/contact">CONTACT</a></li> 
     <li><a href="/store">STORE</a></li>

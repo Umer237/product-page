@@ -4,7 +4,8 @@ import React from 'react'
 const Store = () => {
   return (
     <>
-  <h1>Store</h1>
+  <h1>STORE
+  </h1>
     </>
   )
 }
