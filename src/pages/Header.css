@@ -10,6 +10,10 @@ background: rgb(31, 30, 30);
 list-style: none;
 
 }
+.Navbar li{
+    display: flex;
+    gap:250px;
+}
 .Navbar ul li a{
     text-decoration: none;
     color:grey;
