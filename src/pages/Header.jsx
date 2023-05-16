@@ -10,17 +10,13 @@ const Header = () => {
       { name: " RECIPES ", path: "/recipes" },
       { name: " CONTACT ", path: "/contact" },
       { name: " STORE ", path: "/store" },
-
-      
     ];
-
     setNavLinks(navs);
   }, []);
   return (
     <>
       <div className="Navbar">
         <nav>
-          {console.log(navLinks)}
           <ul>
             <div className="Logo">
               <a href="/">
@@ -29,10 +25,10 @@ const Header = () => {
             </div>
             <li>
               {navLinks.map((d,i) => (
-                  <li key={i}>
-              <a href={d.path}>{d.name}</a>
-            </li>
-              ))}  
+                <li key={i}>
+                  <a href={d.path}>{d.name}</a>
+                </li>
+              ))}
             </li>
           </ul>
         </nav>
