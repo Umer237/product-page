@@ -12,6 +12,7 @@ list-style: none;
 }
 .Navbar li{
     display: flex;
+    font-size: 18px;
     gap:250px;
 }
 .Navbar ul li a{

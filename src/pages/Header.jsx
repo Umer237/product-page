@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { BsBasket } from "react-icons/bs";
-import Banner from "./Banner";
 import "./Header.css";
 const Header = () => {
   const [navLinks, setNavLinks] = useState([]);
@@ -9,6 +8,10 @@ const Header = () => {
     const navs = [
       { name: " OUR STORY ", path: "/ourstory" },
       { name: " RECIPES ", path: "/recipes" },
+      { name: " CONTACT ", path: "/contact" },
+      { name: " STORE ", path: "/store" },
+
+      
     ];
 
     setNavLinks(navs);
@@ -29,14 +32,7 @@ const Header = () => {
                   <li key={i}>
               <a href={d.path}>{d.name}</a>
             </li>
-              ))}
-            </li>
-          
-            <li>
-              <a href="/contact">CONTACT</a>
-            </li>
-            <li>
-              <a href="/store">STORE</a>
+              ))}  
             </li>
           </ul>
         </nav>
