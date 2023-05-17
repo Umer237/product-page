@@ -1,9 +1,16 @@
 import React from 'react'
 
-const OurStory = () => {
+function OurStory  (){
+ let Color = 'Blue and Black' ;
+ let Colorofcar = 'Blue and White' ;
+ let Car = 'Blue and Red' ;
+
   return (
     <>
-   <h1>OUR STORY</h1>
+ <h2>Hi, I am a {Colorofcar} Car</h2>;
+ <h2>Hi, I am a {Color} Car</h2>;
+ <h2>Hi, I am a {Car} Car</h2>;
+
    </>
   )
 }

@@ -5,13 +5,13 @@ const Header = () => {
   const [navLinks, setNavLinks] = useState([]);
 
   useEffect(() => {
-    const navs = [
+    const links = [
       { name: " OUR STORY ", path: "/ourstory" },
       { name: " RECIPES ", path: "/recipes" },
       { name: " CONTACT ", path: "/contact" },
       { name: " STORE ", path: "/store" },
     ];
-    setNavLinks(navs);
+    setNavLinks(links);
   }, []);
   return (
     <>
